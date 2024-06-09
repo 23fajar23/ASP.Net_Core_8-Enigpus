@@ -8,6 +8,10 @@ namespace Enigpus.model
 {
     public abstract class Book
     {
+        public string Code { get; set; }
+        public string Title { get; set; }
+        public string Publisher { get; set; }
+        public string PublicationYear { get; set; }
         public abstract string GetTitle();
     }
 }

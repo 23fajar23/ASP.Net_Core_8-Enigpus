@@ -1,10 +1,13 @@
-﻿namespace Enigpus
+﻿using Enigpus.view;
+
+namespace Enigpus
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            BooksView booksView = new BooksView();
+            booksView.Run();
         }
     }
 }
